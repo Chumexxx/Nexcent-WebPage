@@ -1,0 +1,723 @@
+*{
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.firstDiv{
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F7FA;
+    padding-left: 120px;
+    padding-right: 120px;
+
+
+    .navBar{
+        width: 100%;
+        height: 8vh;
+        display:flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        .quickLinks{
+    
+    
+            .quickLinks1{
+                text-align: center;
+                color: black;
+                text-decoration: none;
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    
+        .signUp{
+            padding-bottom: 10px;
+            .login{
+                text-decoration: none;
+                color: #4CAF4F;
+                margin-right: 10px;
+               }
+    
+            button{
+                background-color: #4CAF4F;
+                color: white;
+                border: none;
+                width: 91px;
+                height: 40px;
+                border-radius: 6px;
+            }
+        }
+    }
+    
+    .first100vh{
+        
+
+        .minusDot{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 280px;
+
+            .lessons{
+                width: 900px;
+    
+                .insights{
+                    font-weight: 600;
+                    font-size: 84px;
+                    line-height: 76px;
+                    color: #4D4D4D;
+                }
+        
+                .years{
+                    font-weight: 600;
+                    font-size: 64px;
+                    line-height: 76px;
+                    color: #4CAF4F;
+                    margin-top: 20px;
+                }
+        
+                .where{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-top: 20px;
+                    color: #717171;
+                }
+        
+                .register{
+                    width: 128px;
+                    height: 52px;
+                    border-radius: 4px;
+                    border: none;
+                    padding: 14px, 32px, 14px, 32px;
+                    gap: 10px;
+                    color: white;
+                    background-color: #4CAF4F;
+                    margin-top: 20px;
+                }
+
+                .lapiMan{
+      
+                    .image1{
+                        width: 450px;
+                        height: 407px;
+                    }
+                }
+            }
+
+        }
+
+        .dot{
+            margin-left: 800px;
+            margin-top:170px;
+        }
+        
+    }
+
+}
+
+.secondDiv{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 50px;
+    width: 100%;
+    height: 55vh;
+
+    .second100vh{
+
+        .div40vh{
+
+            .ourClients{
+                text-align: center;
+
+                .clients{
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 44px;
+                    color: #4D4D4D;
+                    margin-bottom: 10px;
+                }
+
+                .fortune{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;  
+                    color: #717171;
+                    margin-bottom: 10px;
+                }
+
+            }
+
+            .clientLogos{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+
+                .clientLogo1{
+                    margin-left: 150px;
+                }
+
+            }
+        }
+
+        .div60vh{
+
+            .manage{
+                margin-top: 50px;
+                text-align: center;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 44px;
+                color: #4D4D4D;
+            }
+
+            .who{
+                margin-top: 10px;
+                margin-bottom: 40px;;
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #717171;
+            }
+
+            .users{
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+
+                .members{
+                    background-color: white;
+                    text-align: center;
+                    width: 269px;
+                    height: 220px;
+                    box-shadow: 0px 2px 4px 0px #ABBED133;
+                    border-radius: 8px;
+
+                    .memb{
+                        width: 267px;
+                        height: 72px;
+                        font-size: 28px;
+                        font-weight: 700;
+                        line-height: 36px;
+                        color: #000000
+                    }
+
+                    .membMan{
+                        width: 251px;
+                        height: 60px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #717171;
+                     }
+
+                }
+
+                .national{
+                    background-color: white;
+                    text-align: center;
+                    width: 269px;
+                    height: 220px;
+                    box-shadow: 0px 2px 4px 0px #ABBED133;
+                    border-radius: 8px;
+
+                    .memb{
+                        width: 267px;
+                        height: 72px;
+                        font-size: 28px;
+                        font-weight: 700;
+                        line-height: 36px;
+                        color: #000000
+                    }
+
+                    .membMan{
+                        width: 251px;
+                        height: 60px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #717171;
+                    }
+                }
+
+                .club{
+                    background-color: white;
+                    text-align: center;
+                    width: 269px;
+                    height: 220px;
+                    box-shadow: 0px 2px 4px 0px #ABBED133;
+                    border-radius: 8px;
+
+                    .memb{
+                        width: 267px;
+                        height: 72px;
+                        font-size: 28px;
+                        font-weight: 700;
+                        line-height: 36px;
+                        color: #000000
+                    }
+
+                    .membMan{
+                        width: 251px;
+                        height: 60px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #717171;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.mobile1{
+    margin-top:100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+
+    .rafiki{
+        margin-left: 100px;
+
+        /* .rafiki1{
+
+        } */
+    }
+
+    .unseen{
+        margin-left: 350px;
+        .unseen1{
+            width: 60ipx;
+            height: 88px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;   
+            color: #4D4D4D;
+        }
+
+        .lorem{
+            margin-top: 15px;
+            width: 601px;
+            height: 80px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #717171;
+        }
+
+        .learn{
+            width: 128px;
+            height: 52px;
+            border-radius: 4px;
+            border: none;
+            padding: 14px, 32px, 14px, 32px;
+            color: white;
+            background-color: #4CAF4F;
+            margin-top: 20px;
+        }
+    }
+}
+
+.helping{
+    width: 100%;
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F5F7FA;
+
+    .local{
+        margin-left: 50px;
+    }
+
+    .help{
+        width: 408px;  
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        color: #4D4D4D;
+
+    }
+
+    .business{
+        width: 408px;
+        margin-top: 10px; 
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        color: #4CAF4F;
+    }
+
+    .reach{
+        width: 540px;
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #18191F;
+    }
+
+    .stats{
+        margin-left: 200px;
+
+        .flex1{
+            display: flex;
+
+            .rec1{
+                display: flex;
+                width: 500px;
+                height: 100px;
+            }
+        }
+
+    }
+
+}
+
+.numbers{
+    width: 191px;
+    height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    /* text-align: left; */
+    color: #4D4D4D;
+}
+
+.numberTexts{
+    width: 191px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: left; */
+    color: #717171;
+}
+
+.panaDiv{
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+
+    .how{
+        margin-left: 400px;
+        margin-bottom: 30px;
+
+        .foot{
+            width: 601px;
+            height: 88px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;   
+            color: #4D4D4D;
+        }
+
+        .lorem3{
+            margin-top:30px;
+            width: 601px;
+            height: 120px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            color: #717171;
+        }
+
+        .button2{
+            width: 128px;
+            height: 52px;
+            border-radius: 4px;
+            border: none;
+            padding: 14px, 32px, 14px, 32px;
+            color: white;
+            background-color: #4CAF4F;
+            margin-top: 20px;
+        }
+    }
+}
+
+.teslaSection{
+    background: #F5F7FA;
+    margin-top: 40px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+
+    .teslaDiv{
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 1150px;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .teslaImage{
+        
+        }
+
+        .smith{
+            width: 750px;
+            height: fit-content;
+
+            p{
+            width: 748px;
+            height: 168px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #717171;
+            }
+
+            h5{
+                width: 748px;
+                height: 28px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                color: #4CAF4F;  
+            }
+
+            h6{
+                width: 748px;
+                height: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #89939E;
+            }
+        }
+
+        .smithImages{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .timImages{
+                width: 490px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .meet{
+                width: 220px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                #customers{
+                    width: 188px;
+                    height: 28px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #4CAF4F;
+
+                }
+            }
+        }
+    }  
+}
+
+.caringSection{
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+
+    .new{
+        text-align: center;
+        
+
+        .marketing{
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 44px;
+            text-align: center;
+            color: #4D4D4D;
+        }
+
+        .insights{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-top: 30px;
+            text-align: center;
+            color: #717171;
+        }
+    }
+
+    .cardsdiv{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .card{
+            width: 368px;
+            height: 366px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+
+
+            .cover{
+                width: 317px;
+                height: 176px;
+                padding: 16px 0px 0px 0px;
+                border-radius: 8px;
+                background: #F5F7FA;
+                box-shadow: 0px 8px 16px 0px #ABBED166;
+                position: absolute;
+                margin-top: 200px;
+
+                .coverTexts{
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #717171;
+                }
+
+                .readmore{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    color: #4CAF4F;
+                    margin-top: 30px;
+                }
+                
+                 
+            }
+        }
+    }
+}
+
+.pellentDiv{
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    background: #F5F7FA;
+    text-align: center;
+
+    .latin{
+        font-size: 64px;
+        font-weight: 600;
+        color: #263238;
+    }
+
+    .demo{
+        margin-top: 30px;
+        width: 178px;
+        height: 52px;
+        padding: 14px 32px 14px 32px;
+        gap: 8px;
+        border-radius: 4px;
+        background: #4CAF4F;
+        border: none;
+        color: white;
+    }
+}
+
+.footer{
+    width: 100%;
+    background-color: #263238;
+    padding-top: 40px;
+    padding-left: 220px;
+    padding-right: 280px;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .copyright{
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .footerdiv_1{
+        display: flex;
+        align-items: center;
+
+        .next{
+            color: white;
+            font-size: 34px;
+        }
+
+    }
+
+    .footerdiv2{
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+
+        .companydiv{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            
+        }
+
+        .supportdiv{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        input{
+            opacity: 20%;
+            border-radius: 5px;
+            color: #D9DBE1;
+        }
+    }
+
+}
+
+.linkss{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;   
+
+}
